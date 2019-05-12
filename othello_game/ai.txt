@@ -1,0 +1,18 @@
+Did you attempt to make your computer player very smart -- i.e., do something more clever than just pick a random legal move?
+Yes
+
+If so, were you able to accomplish this? Is your computer player as smart as you would like?
+It is smarter than random move computer but it could be much smarter.
+
+How did you determine which piece to play next? Tell us about your “pick next move” algorithm
+I give AI 4 priorities to choose a move:
+1. Corner
+2. Edge
+3. 3rd from the edges (Reason being if we control the 3rd tile, other player has to go for the 2nd tile from the edges, and then we can control the edges)
+4. Most flippable stones per direction
+
+How often did your computer program beat you, or your friends, or whoever tested it out for you?
+About 1/2 of the times
+
+How would you improve it in the future?
+I would implement things AI should not to do(such as dont go for edges next to corner where other player can easily control the corner, etc.)

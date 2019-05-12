@@ -1,0 +1,16 @@
+[
+  "test_game_controller.py::test_constructor",
+  "test_game_controller.py::test_start_game",
+  "test_game_controller.py::test_can_go",
+  "test_game_controller.py::test_is_edge",
+  "test_game_controller.py::test_is_corner",
+  "test_game_controller.py::test_is_third_away",
+  "test_game_controller.py::test_ai_make_move",
+  "test_game_controller.py::test_check_valid_move",
+  "test_game_controller.py::test_flip_stone",
+  "test_game_controller.py::test_current_color",
+  "test_game_controller.py::test_other_color",
+  "test_game_controller.py::test_end_game",
+  "test_game_controller.py::test_save_to_txt",
+  "test_game_controller.py::test_read_file"
+]
